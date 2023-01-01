@@ -1,0 +1,12 @@
+try {
+    let age = prompt("Enter your age")
+    age = Number.parsentInt(age)
+    if(age>150){
+      throw new ReferanceError("this is probbably not true")
+    }
+  } catch (error) {
+    console.log(error.name)
+    console.log(error.massage)
+    console.log(error.stack)
+  }
+  console.log("the script is still running")s
