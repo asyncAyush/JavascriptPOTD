@@ -1,0 +1,10 @@
+let key = prompt("enter key you want to set")
+let value = prompt("enter value you want to set")
+localstorage.setitem(key,value)
+console.log(`the value at $(key) is ${localstorage.getitem(key)}`)
+if (key == "red || key == "blue") {
+  localStorage.removeitem(key)
+}
+if(key == 0) {
+  localstorage.clear()
+}
